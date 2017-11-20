@@ -1,0 +1,39 @@
+---
+version: 1
+rwmutex: {}
+interactions:
+- request:
+    body: http://www.google-analytics.com/collect
+    form:
+      http://www.google-analytics.com/collect:
+      - ""
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+    url: http://www.google-analytics.com/collect
+    method: POST
+  response:
+    body: !!binary R0lGODlhAQABAID/AP///wAAACwAAAAAAQABAAACAkQBADs=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Length:
+      - "35"
+      Content-Type:
+      - image/gif
+      Date:
+      - Mon, 20 Nov 2017 19:45:43 GMT
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Last-Modified:
+      - Sun, 17 May 1998 03:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Golfe2
+      X-Content-Type-Options:
+      - nosniff
+    status: 200 OK
+    code: 200
